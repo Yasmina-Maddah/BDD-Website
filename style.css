@@ -93,6 +93,8 @@
     display: flex;
     background-color: rgb(236, 233, 233);
     margin-top: 40px;
+    width: 100vw;
+    
 }
 
 .content{
@@ -112,7 +114,7 @@
     width:190px;
 }
 
-.bar1-details{
+.bar-details{
     text-align: center;
     width: 190px; 
     margin-top: 20px;
