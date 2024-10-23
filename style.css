@@ -133,6 +133,18 @@
     align-items: center;
 }
 
+.image-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 500px;;
+    background-color: white;
+    border-radius: 5px;
+    margin: 40px;
+
+}
+
 .details{
     display: flex;
     flex-direction: column;
@@ -143,3 +155,80 @@
     border-radius: 5px;
     margin: 40px;
 }
+
+.bdd-office{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.bdd-office-details{
+    text-align: center;
+    width: 190px; 
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: Bold;
+}
+
+.custom-list {
+    list-style-type:circle;
+    padding-left: 20px; 
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1f1f1f; /* Adjust the background color */
+    color: #fff;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Adjust as needed */
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #b3b3b3;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-section ul li strong {
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+.app-links {
+    display: flex;
+    gap: 10px;
+}
+
+.app-store, .google-play {
+    width: 100px; /* Adjust the size of the app store images */
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
