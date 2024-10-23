@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container-image{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+}
+
+.background-image{
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100vw; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.head-image{
+    position:absolute;
+    flex: 0 1 5%;
+    max-width:8%;
+    max-height: 8%;
+    left: 80px;
+    top: 20px;
+}
+
+.header-text {
+    position: absolute; 
+    top: 360px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    width: 100%; 
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+
