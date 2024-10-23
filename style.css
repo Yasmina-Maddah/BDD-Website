@@ -124,12 +124,22 @@
 .garden{
     background-color: rgb(146, 186, 156);
     margin-top: 20px;
+    width: 100vw;
 }
 
 .bdd-garden{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;;
+    background-color: white;
+    border-radius: 5px;
+    margin: 40px;
+}
