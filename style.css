@@ -168,13 +168,13 @@
     margin-top: 20px;
     font-size: 22px;
     font-weight: Bold;
+    margin-bottom: 80px;
 }
 
 .custom-list {
     list-style-type:circle;
     padding-left: 20px; 
     color: black;
-    margin-bottom: 15px;
 }
 
 .footer {
