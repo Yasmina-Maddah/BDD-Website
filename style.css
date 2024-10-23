@@ -120,3 +120,16 @@
     margin-top: 20px;
     font-size: 18px;
 }
+
+.garden{
+    background-color: rgb(146, 186, 156);
+    margin-top: 20px;
+}
+
+.bdd-garden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
